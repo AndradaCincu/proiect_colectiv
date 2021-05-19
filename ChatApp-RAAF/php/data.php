@@ -15,7 +15,7 @@
         ($row['status'] == "Offline now") ? $offline = "offline" : $offline = "";
         ($outgoing_id == $row['unique_id']) ? $hid_me = "hide" : $hid_me = "";
 
-        $output .= '<a href="chat.php?user_id='. $row['unique_id'] .'" target="chat">
+        $output .= '<a href="chat.php?userid='. $row['unique_id'] .'" target="chat">
                     <div class="content">
                     <img src="php/images/'. $row['img'] .'" alt="">
                     <div class="details">
